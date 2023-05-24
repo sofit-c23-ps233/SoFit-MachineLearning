@@ -1,1 +1,1 @@
-# Machine Learning side
+# Machine Learning for SoFit app
