@@ -7,7 +7,7 @@ app.use(express.json());
 const categoryleveling = ['Extremely Weak', 'Weak', 'Ideal', 'Overweight', 'Obesity', 'Extreme Obesity'];
 
 app.post('/predict', async (req, res) => {
-  const model = await tf.loadLayersModel('https://raw.githubusercontent.com/sofit-c23-ps233/SoFit-MachineLearning/main/model.json');
+  const model = await tf.loadLayersModel('https://raw.githubusercontent.com/sofit-c23-ps233/SoFit-MachineLearning/main/model_ml/model.json ');
 
   let data = {
     gender: Number(req.body.gender),

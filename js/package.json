@@ -1,12 +1,12 @@
 {
-  "name": "latihan_tfjs",
+  "name": "machine_learning_model_tfjs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
   },
-  "author": "",
+  "author": "sofit",
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs": "^4.6.0",
