@@ -6,6 +6,13 @@ app.use(express.json());
 
 const categoryleveling = ['Extremely Weak', 'Weak', 'Ideal', 'Overweight', 'Obesity', 'Extreme Obesity'];
 
+app.get('/', async (req, res) => {
+  res.json({
+    success: true,
+    message: 'Machine Learning API is Ready. For more information please read the API Documentation : https://documenter.getpostman.com/view/23251415/2s93m911te#5b165e4e-d614-42a2-bb1a-61a73b892193',
+  });
+});
+
 app.post('/predict', async (req, res) => {
   const model = await tf.loadLayersModel('https://raw.githubusercontent.com/sofit-c23-ps233/SoFit-MachineLearning/main/model_ml/model.json ');
 
@@ -21,6 +28,6 @@ app.post('/predict', async (req, res) => {
   res.json({ category });
 });
 
-app.listen(3000, () => {
-  console.log('API run on port 3000');
+app.listen(8080, () => {
+  console.log('API run on port 8080');
 });
