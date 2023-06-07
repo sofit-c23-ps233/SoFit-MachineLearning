@@ -6,7 +6,7 @@ app.use(express.json());
 
 const categoryleveling = ['Extremely Weak', 'Weak', 'Ideal', 'Overweight', 'Obesity', 'Extreme Obesity'];
 
-app.get('/', async (res) => {
+app.get('/', async (req, res) => {
   res.json({
     success: true,
     message: 'Machine Learning API is Ready. For more information please read the API Documentation : https://documenter.getpostman.com/view/23251415/2s93m911te#5b165e4e-d614-42a2-bb1a-61a73b892193',
