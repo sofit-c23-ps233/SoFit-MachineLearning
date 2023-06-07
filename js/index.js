@@ -6,7 +6,7 @@ app.use(express.json());
 
 const categoryleveling = ['Extremely Weak', 'Weak', 'Ideal', 'Overweight', 'Obesity', 'Extreme Obesity'];
 
-app.get('/', async (req, res) => {
+app.get('/', async (res) => {
   res.json({
     success: true,
     message: 'Machine Learning API is Ready. For more information please read the API Documentation : https://documenter.getpostman.com/view/23251415/2s93m911te#5b165e4e-d614-42a2-bb1a-61a73b892193',
@@ -25,7 +25,7 @@ app.post('/predict', async (req, res) => {
   const example = tf.tensor2d([[data.gender, data.height, data.weight]]);
   const prediction = model.predict(example).argMax(1).dataSync()[0];
   const category = categoryleveling[prediction];
-  res.json({ category });
+  res.json({ prediction, category });
 });
 
 app.listen(8080, () => {
