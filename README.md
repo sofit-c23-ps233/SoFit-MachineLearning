@@ -4,7 +4,7 @@
 <h3>1. Tools and Requirements</h3>
 <p>
   <ol>
-    <li>Pythone Programing LEanguange</li>
+    <li>Python Programming Language</li>
     <li>Tensorflow</li>
     <li>Google Colab</li>
     <li>vs code</li>
