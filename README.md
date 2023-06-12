@@ -71,9 +71,17 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTRIBUTORS -->
 ## Contributors
 
-1. Taryo - (linkedin)
-2. Eldi - (linkedin)
+1. Taryo - https://www.linkedin.com/in/taryoofficial/
+2. Eldi - https://www.linkedin.com/in/eldiap/
 3. Rifqi Alamsyah - https://www.linkedin.com/in/rifqialamsyh/
 4. Rastra Wardana Nanditama - https://www.linkedin.com/in/rastrawrdn/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- REFERENCES -->
+## References
+https://www.turing.com/kb/data-normalization-with-python-scikit-learn-tips-tricks-for-data-science
+https://towardsdatascience.com/smote-fdce2f605729
+https://levelup.gitconnected.com/body-mass-index-prediction-with-machine-learning-5f277ff531f5
