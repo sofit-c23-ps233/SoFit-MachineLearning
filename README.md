@@ -82,6 +82,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- REFERENCES -->
 ## References
-https://www.turing.com/kb/data-normalization-with-python-scikit-learn-tips-tricks-for-data-science
-https://towardsdatascience.com/smote-fdce2f605729
-https://levelup.gitconnected.com/body-mass-index-prediction-with-machine-learning-5f277ff531f5
+- https://www.turing.com/kb/data-normalization-with-python-scikit-learn-tips-tricks-for-data-science
+- https://towardsdatascience.com/smote-fdce2f605729
+- https://levelup.gitconnected.com/body-mass-index-prediction-with-machine-learning-5f277ff531f5
