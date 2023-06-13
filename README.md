@@ -11,7 +11,7 @@ Food and exersise recomendation acording to BMI
 - TensorFlow.js
 
 ## Dataset
-<p>https://www.kaggle.com/datasets/yasserh/bmidataset/code</p>
+<p>https://www.kaggle.com/datasets/yasserh/bmidataset/code](https://www.kaggle.com/datasets/yersever/500-person-gender-height-weight-bodymassindex</p>
 <p>The total of our datasets just 500 datasets</p>
 
 ## Deploy to Google Cloud Platform
